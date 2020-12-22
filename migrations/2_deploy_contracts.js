@@ -1,5 +1,5 @@
-const Social = artifacts.require("Social");
+var Election = artifacts.require("./Election.sol");
 
-module.exports = function(deployer){
-    deployer.deploy(Social);
+module.exports = function(deployer) {
+    deployer.deploy(Election);
 };
