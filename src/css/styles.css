@@ -1,0 +1,66 @@
+.body {
+    background-color: #fff;
+    font-size: 14px;
+
+}
+
+.grey-container {
+    margin: 30px auto;
+    background-color: #f6f7fb;
+    border-radius: 5px;
+    max-width: 700px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 0px;
+}
+.panel {
+    box-shadow: 0 3px 5px 0 rgba(24,30,54,.05);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.container {
+    width: 100% !important;
+}
+
+#content {
+    margin: 0px;
+    width: 100% !important;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: right;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.table * {
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .account-address {
+        font-size: 11px;
+    }
+
+    #content {
+        width: 500px;
+    }
+}
