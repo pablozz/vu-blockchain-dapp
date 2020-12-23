@@ -55,6 +55,10 @@ form {
     background-color: #fff;
 }
 
+th {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
     .account-address {
         font-size: 11px;
